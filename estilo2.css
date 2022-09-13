@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  background-color: chartreuse;
+  justify-content: space-between;
+  min-height: 70px;
+  align-items: center;
+}
+nav {
+  margin: 20px;
+  font-size: 15px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+img {
+  height: 70px;
+}
+
+body {
+  font-family: monospace;
+  background-image: url(https://fondosmil.com/fondo/28459.jpg);
+}
+
+h1 {
+  display: flex;
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-style: ridge;
+  border-radius: 10px;
+  position: relative;
+  width: 185px;
+}
+
+nav a:hover {
+  color: white;
+}
+div h2:hover {
+  color: white;
+}
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+.caja {
+  width: 100%;
+  height: 100%
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  margin-left: 55px;
+}
+
+.galeria {
+  margin: 40px 15px;
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0, 0);
+  float: left;
+  width: 250px;
+  height: auto;
+}
+
+.foto img {
+  width: 250px;
+  height: auto;
+}
+
+.galeria:hover {
+  transform: rotate(-3deg);
+}
+.pie {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 4px 4px 10px rgb(0, 255, 98);
+  padding: 1px;
+}
+
+.abajo {
+  margin: 40px 15px;
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0, 0);
+  float: left;
+  width: 200px;
+}
+
+.abajo:hover {
+  transform: rotate(-3deg);
+}

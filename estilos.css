@@ -1,0 +1,69 @@
+header{
+display: flex;
+background-color: chartreuse;
+justify-content: space-between;
+min-height: 70px;
+align-items: center;
+
+}
+nav{
+    margin: 20px;
+    font-size: 15px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+img{
+
+height: 70px;
+
+}
+
+body{
+font-family: monospace;
+background-image: url(https://fondosmil.com/fondo/28462.jpg);
+
+}
+
+h2{
+    margin: 20px;
+    
+}
+
+main{
+    font-family: sans-serif;
+    height: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    margin-left: 55px;
+}
+
+#seba{
+    text-decoration: none;
+}
+
+nav a:hover{
+color: white;
+}
+div h2:hover{
+    color: white;
+}
+
+
+
+@media (max-width:700px){
+
+    header{
+        flex-direction: column;
+    }
+    
+}
+
